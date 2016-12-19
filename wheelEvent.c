@@ -17,8 +17,7 @@ void windowMove(int right) {
   unsigned int plus_key;
   unsigned int window_key;
   display = XOpenDisplay(NULL);
-
-  plus_key = XKeysymToKeycode(display, XK_plus);
+  
   window_key = XKeysymToKeycode(display, XK_Super_L);
 
   if(right) {
