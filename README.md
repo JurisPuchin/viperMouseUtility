@@ -37,3 +37,15 @@ sudo /usr/local/sbin/viperWheelEvent
 ```
 ###If you like this, or want help, or think I should keep working on this.
 Please let me know!
+
+###Hint:
+Make sure your mouse is mapped to:
+```
+/dev/input/by-id/usb-Areson_PATRIOT_VIPER_MOUSE-event-if02
+```
+If not, change the definition at the start of the `wheelEvent.c` file. 
+
+If you are missing libraries, try:
+```
+sudo apt-get install libxtst-dev
+```
