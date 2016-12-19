@@ -35,5 +35,5 @@ And add a new entry into Startup Applications:
 ```
 sudo /usr/local/sbin/viperWheelEvent
 ```
-###If you like this, or want help.
+###If you like this, or want help, or think I should keep working on this.
 Please let me know!
